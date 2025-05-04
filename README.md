@@ -1,11 +1,24 @@
-EMCAS Code for Java to SPIM Implementation
+# EMCAS to SPIM Implementation
 
-This project implements a tool that translates EMCAS code (a Java-based language) into SPIM (a MIPS assembly language). The goal is to provide a straightforward process for converting high-level Java code into low-level MIPS instructions.
+This project provides a reference for helping people learn SPIM (MIPS Assembly Language) through an illustrative example that shows how code written in a high-level EMCAS-like syntax can be translated into SPIM assembly code.
 
-Features
-	•	Converts Java-like EMCAS code into SPIM instructions.
-	•	Enables running of converted code on the SPIM simulator.
+## Purpose
 
-Requirements
-	•	Java Development Kit (JDK): Required to run the EMCAS code parser.
-	•	SPIM Simulator: Required to run the MIPS assembly code generated from EMCAS.
+The aim of this project is to serve as a learning resource for anyone studying SPIM and MIPS assembly. It demonstrates how high-level programming constructs can be converted into low-level assembly code, helping beginners understand the relationship between high-level and low-level programming languages.
+
+## What’s Inside
+  - Example code written in EMCAS-like syntax (similar to Java).
+  - Corresponding SPIM assembly code to demonstrate the translation process.
+  - A simple walkthrough to help users understand how high-level code gets mapped to assembly instructions.
+
+## How to Use
+
+This project is a reference guide. There are no executable tools or converters in the repository. Instead, it provides examples of code written in EMCAS-like syntax, followed by their SPIM equivalents, to help users understand how simple operations are handled in SPIM assembly.
+
+## Contributing
+
+Feel free to open issues or submit pull requests with any improvements or additional examples.
+
+## License
+
+This project is open source and available under the MIT License.
